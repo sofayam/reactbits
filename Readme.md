@@ -4,7 +4,7 @@ Bring all the bits together for a typescript react express mongo app.
 - nav
 - router
 - hooks
-- form validation
+- form validation (so many videos)
 - mongo (ose?)
 - fetch 
 - server (with tsoa?)
