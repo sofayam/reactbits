@@ -10,13 +10,16 @@ const Nav = () => {
 
   return (
     <nav>
-      <h3>Logo</h3>
+      <h3>Vocab</h3>
       <ul className="nav-links">
-        <Link style={navStyle} to="/about">
-          <li>About</li>
+      <Link style={navStyle} to="/">
+          <li>Enter</li>
         </Link>
-        <Link style={navStyle} to="/shop">
-          <li>Shop</li>
+        <Link style={navStyle} to="/list">
+          <li>List</li>
+        </Link>
+        <Link style={navStyle} to="/sources">
+          <li>Sources</li>
         </Link>
       </ul>
     </nav>

@@ -2,8 +2,9 @@ import React from 'react';
 
 import './App.css';
 import Nav from "./Nav";
-import Shop from "./Shop";
-import About from "./About";
+import Sources from "./Sources";
+import List from "./List";
+import Enter from "./Enter";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -13,21 +14,14 @@ const App = () => {
       <div className="App">
         <Nav />
         <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" exact component={About} />
-          <Route path="/shop" exact component={Shop} />
+          <Route path="/" exact component={Enter} />
+          <Route path="/list" exact component={List} />
+          <Route path="/sources" exact component={Sources} />
         </Switch>
       </div>
     </Router>
   );
 }
 
-const Home = () => {
-  return (
-    <div>
-      <h1>Home Page</h1>
-    </div>
-  )
-}
 
 export default App;

@@ -2,12 +2,12 @@ import React from 'react';
 
 import './App.css';
 
-const About = () => {
+const List = () => {
   return (
     <div>
-       <h1>About Page</h1>
+       <h1>List Page</h1>
     </div>
   );
 }
 
-export default About;
+export default List;

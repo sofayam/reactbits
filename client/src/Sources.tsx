@@ -2,7 +2,7 @@ import React, { useState, useEffect} from 'react';
 
 import './App.css';
 
-const Shop = () => {
+const Sources = () => {
   useEffect(() => {
     fetchItems();
   }, []);
@@ -15,9 +15,9 @@ const Shop = () => {
   }
   return (
     <div>
-       <h1>Shop Page</h1>
+       <h1>Sources Page</h1>
     </div>
   );
 }
 
-export default Shop;
+export default Sources;
