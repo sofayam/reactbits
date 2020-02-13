@@ -21,4 +21,7 @@ npm install react-router-dom
 
 # credits
 
-- 1 https://www.youtube.com/watch?v=Law7wfdg_ls&t=3s
+- https://www.youtube.com/watch?v=Law7wfdg_ls&t=3s (routing)
+- https://www.youtube.com/watch?v=TxEVnaISj1w (formik)
+- https://www.youtube.com/watch?v=XjTqUsQ4a8g (autosuggest)
+
